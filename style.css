@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid palegreen; */
+}
+
+.container{
+    width: 750px;
+    height: 570px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
+    margin: 0px auto;
+    font-family: sans-serif;
+    border: 1px solid black;
+    /* border-radius: 20px; */
+}
+
+.box-a{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: #008a59;
+    color: #ffff;
+    font-size: 14px;
+    padding: 20px ;
+
+}
+.box-b{
+    grid-column: 2/4;
+    grid-row: 1/4;
+    background-color: #66bb9e;
+    color: #ffff;
+}
+.box-b h2{
+    font-size: 30px;
+    position: relative;
+    right: 90px;
+}
+.box-b .btn {
+    padding: 20px;
+    text-align: end;
+    
+}
+.box-b .btn button{
+    width: 50px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-left: 20px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.box-c{
+    background-color: #002b1c;
+
+}
+.box-d{
+    grid-column: 1/4;
+    grid-row: 4/6;
+    background-color: #ffff;
+}
+.box-d .cards{
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    position: relative;
+    bottom: 150px;
+}
+.cards .card-1{
+    width: 200px ;
+    height: 200px;
+    padding : 10px;
+    background-color: #407f6a;
+       
+}
+
+.cards img{
+    margin-top: 10px;
+    
+    width: 180px;
+    height: 150px;
+}
+.cards .card-2{
+    width: 200px ;
+    height: 200px;
+    padding : 10px;
+    background-color: #74bda4;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.cards .card-3{
+    width: 200px ;
+    height: 200px;
+    padding : 10px;
+    background-color: #78bea7;
+
+}
+
+.box-d form{
+    width: 600px;
+    height: 40px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 120px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.box-d footer{
+    display: flex;
+    justify-content: space-between;
+}
+.box-d footer span{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 60px;
+    margin: 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+    
